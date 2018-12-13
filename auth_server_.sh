@@ -1,7 +1,7 @@
 #!/bin/bash
 g_CUR_DIR=$(dirname "$(readlink -f "$0")")
 CLIENT_FILE=$1
-PASSWORD="OFNDsMTXP4s1Xb"
+PASSWORD='OFNDsMTXP4s1Xb'
 
 function install_sshpass() {
     yum -y install epel-release
